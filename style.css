@@ -3,6 +3,40 @@ html, body {
   padding: 0;}
 body {
   background-image: url("images/killafanbackground.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   box-sizing: border-box;
   height: 100dvh;
   width: 100vw;}
+ .font{
+   font-family: "Noto Sans Devanagari", serif;
+   font-style: normal;
+   font-weight: 100;}
+                
+                h1 {text-align: center;
+                    font-size: 40px;}
+                div {text-align: left;
+                    font-size: 30px;}
+               
+                a:link{
+                    color:thistle;
+                    text-decoration: none;
+                }
+                a:visited{
+                    color:thistle;
+                    text-decoration: none;
+                }
+                .center{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    border: hidden;
+                }
+               
+                main{
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    background-size: cover;
+                    background-position: center;
+                }
